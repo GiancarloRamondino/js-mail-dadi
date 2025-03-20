@@ -10,11 +10,11 @@ let mail= prompt('inserisci la tua email');
 let mailFound = false;
 
 for (let i = 0; i > mailList.length; i++) {
-    if (mailList[i] == mail) //controllo se la mail è presente forse avrei potuto usaree cheek?
+    if (mailList[i] == mail) 
         mailFound = true
 }
 
-if (mailFound == true) { // ho usato le
+if (mailFound == true) { 
     console.log('la tua mail è già presente nella lista') //possso usare alert?
 }
 else {
