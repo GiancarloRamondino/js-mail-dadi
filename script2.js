@@ -1,6 +1,6 @@
 
-let randomNum = Math.random() * 5 + 1;  // creo numeri randomici tra 1 e 6
-let randomNum2 = Math.random() * 5 + 1;
+let randomNum = Math.random() * 6 + 1;  // creo numeri randomici tra 1 e 6
+let randomNum2 = Math.random() * 6 + 1;
 
 giocatore = [randomNum.toFixed(0), randomNum.toFixed(0), randomNum.toFixed(0), randomNum.toFixed(0)]; // creo un array  con  4 numeri randomici]
 computer = [randomNum2.toFixed(0), randomNum2.toFixed(0), randomNum2.toFixed(0), randomNum2.toFixed(0)];
